@@ -4,10 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Static Layout Website</title>
+    <title>Living on a Prayer</title>
+    <link rel="stylesheet" href="./working.css">
+
+    <!-- ADD FONT -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+
 </head>
+
 <body>
-    <h1>Deployed!</h1>
+    <header>
+
+        <div class ="mainLogo">
+            <img src="./assets/WizardingWorld-Logo-White-396x300.webp" id="mainLogo" height="50" width="75">
+        </div>  
+        <div class="loginButton">
+            <button id="login">LOGIN</button>
+        </div>
+
+        <nav>
+            <ul>
+                <li><span><a href="#">News & Features</a></span></li>
+                <li><a href="#">Quizzes</a></li>
+                <li><a href="#">J.K. Rowling Archive</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Starting at Harry Potter</a></li>
+                <li><a href="#">Hogwarts Sorting</a></li>
+                <li><a href="#">Fan Club</a></li>
+                <li><a href="#">Pins </a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+    <div class="page1">    
+        <img src="./assets/HP Logo + FBeasts Logo.png" alt="potterBeastsLogo" height="" width="">
+        <h2>Take part in our official wand ceremony</h2>
+        <p>Finding your wand is a rite of passage for all young wizards and witches. So what are you wating for, discover yours now in the Harry Potter Fan Club online wand experience. </p>
+        <div class="loginButton">
+            <button id="login" al>LOGIN</button>
+        </div>
+    </div>
+    </section>
+
+        <main>
+            <!-- 
+                - Specifies the main content. 
+                - Can only be one.
+                - Cannot be a descendant (child) of:
+                    - header
+                    - nav
+                    - article
+                    - aside
+                    - footer
+             -->
+             <article>
+                 <!-- the <article tag specifies independent, self-contained content -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat esse saepe consequuntur incidunt vel itaque sit eaque necessitatibus sint provident a magni impedit recusandae quas, est dolore ullam reiciendis totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sint recusandae nam corporis repudiandae, consectetur commodi, excepturi, soluta ipsam quae facilis. Unde libero ea repellendus tenetur suscipit doloribus illo voluptates.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque alias mollitia aperiam amet eos voluptatum ipsum consequuntur, dicta magnam velit veniam unde consequatur voluptas. Minima eius odit ex officia aspernatur.</p>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, unde temporibus? Ullam facilis amet, corrupti dolor eveniet aspernatur sed ut quos dolores ipsum dicta illo officiis quaerat molestiae iste dignissimos. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, voluptates asperiores? Doloribus, natus fuga! Aut incidunt quas sunt rem possimus consectetur ipsam vel, facilis, quis deleniti asperiores placeat soluta alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quam fugit voluptas, exercitationem ipsam quae officiis odit atque assumenda accusamus dicta, modi eum quo quasi ad voluptate tempora fugiat nesciunt!
+                Vitae dolore excepturi consequuntur voluptas? Temporibus ipsum optio tenetur impedit eum quisquam nostrum explicabo doloribus quas quos magni numquam nisi perferendis suscipit illo doloremque maxime repellat illum, enim repudiandae vitae.
+                </p>
+             </article>
+
+            <aside>
+                <h2>Favorite Albums</h2>
+                <!-- a*3.img -->
+                <a href="./assets/BrokenBells_Amoeba.jpg" target="_blank"><img src="./assets/BrokenBells_Amoeba.jpg" alt="Broken Bells"></a>
+                <!-- CMD + D multiline allows for the ability to edit multiple lines of code that match the highlighted area all at once -->
+                <a href="./assets/inYourHonor.jpg" target="_blank"><img src="./assets/inYourHonor.jpg" alt="Foo Fighters"></a>
+                <a href="./assets/PinkFloyd.jpg" target="_blank"><img src="./assets/PinkFloyd.jpg" alt="Pink Floyd"></a>
+                <a href="./assets/TVotR_seeds.jpg" target="_blank"><img src="./assets/TVotR_seeds.jpg" alt="TVoR"></a>
+            </aside>
+        </main>
+
+
 </body>
+
+
 </html>

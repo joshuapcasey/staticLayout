@@ -1,0 +1,108 @@
+/* General Setup */
+body {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+html {
+    font-size: 10px;
+    background-image: url(./assets/HP\ Background\ Image.jpg);
+}
+
+body {
+    width: 100vw;
+    min-width: 80px;
+    margin: 0 auto;
+    height: 100vw;
+}
+
+
+/* TYPOGRAPHY */
+h1, h2 {
+    font-family: 'raleway', 'sans-serif';
+    color: #2a2a2a;
+}
+
+p, li {
+    font-family: 'roboto condensed', 'sans-serif';
+    color: #2a2a2a;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 4rem;
+    /* 
+        REMs are a way of setting font-size based on the font-size of the root HTML element. They also alow you to quickly scale and entire project by changing the root font-size.
+            - 1rem = 100% font size of the root element
+            - in this case: 4rem = 4 * h1
+    */
+    text-align: center;
+    text-shadow: 2px 2px 10px lightslategray;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+/*  HEADER LAYOUT */
+header {
+    margin-bottom: 0px;
+    background-color: #242633;
+}
+
+main, article, aside, footer, section {
+    background-color: rgba(255,255,255, .3);
+    padding: 1%;
+}
+
+nav {
+    background-color: #10141b;
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+}
+
+/*
+    Why use commas between some elements?
+    - commas state that we want to style "this" element and "that element. 
+    - No commas states that we want to style "this" element WITHIN "that" element.  
+*/
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+}
+
+nav a, nav span {
+    font-size: 1rem;
+    height: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.potterBeastsLogo{
+    resize:
+}
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/Wand_experience_Ollivanders_exterior__Normal_width.jpg);
+    background-size: cover;
+    ;
+}
